@@ -43,7 +43,7 @@
         random2 = Math.floor(Math.random() * range) - offset;
         random3 = Math.floor(Math.random() * range) - offset;
         random4 = Math.floor(Math.random() * range) - offset;
-        console.log(random1, random2, random3, random4)
+        
         coords.set({ x: e.offsetX, y: e.offsetY });
         coords2.set({ x: e.offsetX+(random1 * deg), y: e.offsetY+(random2 * deg) });
         coords3.set({ x: e.offsetX+(random3 * deg), y: e.offsetY+(random4 * deg) });

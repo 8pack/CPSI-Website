@@ -116,7 +116,7 @@
             color: var(--primary);
         }
         .stars {
-            background: url('bg-grid-transparent.png');
+            background: url('/bg-grid-transparent.png');
             height: 100%;
             width: 100%;
             position: fixed;

@@ -13,7 +13,7 @@
 <div class="grid gap-8 ">
     <div class="grid gap-8 content-start">
 
-        <img {src} {alt} class="hover:scale-[1.02] transition-transform mx-auto md:mx-0 md:w-full object-contain">
+        <img {src} {alt} class="hover:scale-[1.02] transition-transform max-w-60 object-contain">
         
         <div class="grid gap-8 items-start text-start md:text-start">
             <h3 class="font-semibold">{name}</h3>
@@ -26,13 +26,13 @@
             {#if linkedin}
                 <a href={linkedin} target="_blank"> <img src="linkedIn-logo.png" alt="LinkedIn" width=40 height=40></a>
             {:else}
-                <img src="linkedIn-logo.png" alt="LinkedIn" width=40 height=40 class="grayscale">
+                <img src="linkedIn-logo.png" alt="LinkedIn" width=40 height=40 class="grayscale opacity-50">
             {/if}
             
             {#if twitter}
                 <a href={twitter} target="_blank"> <img src="twitter-logo.png" alt="Twitter" width=40 height=40></a>
             {:else}
-                <img src="twitter-logo.png" alt="Twitter" width=40 height=40 class="grayscale">
+                <img src="twitter-logo.png" alt="Twitter" width=40 height=40 class="grayscale opacity-50">
             {/if}
                 
             

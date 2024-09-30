@@ -1,7 +1,7 @@
 <script>
 	import { spring } from 'svelte/motion';
 
-	let coords = spring({ x: 50, y: 50 }, {
+	let coords = spring({ x: 100, y: 450 }, {
 		// stiffness: 0.1,
 		stiffness: 0.08,
 		// damping: 0.25
@@ -9,12 +9,12 @@
 	});
 
     
-	let coords2 = spring({ x: 45, y: 55 }, {
+	let coords2 = spring({ x: 95, y: 455 }, {
 		stiffness: 0.07,
 		damping: 0.7
 	});
 
-	let coords3 = spring({ x: 55, y: 50 }, {
+	let coords3 = spring({ x: 105, y: 450 }, {
 		stiffness: 0.06,
 		damping: 0.9
 	});

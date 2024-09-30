@@ -11,9 +11,9 @@
     <div class="stars">
     </div>
     
-    <Waves phase={0} speed={0.01} color="rgba(241, 90, 36, 0.20)"/>
-    <Waves phase={0} speed={0.011} color="rgba(41, 171, 226, 0.20)"/>
-    <Waves phase={0} speed={0.009} color="rgba(193, 39, 45, 0.20)"/>
+    <Waves phase={0} speed={0.005} color="rgba(241, 90, 36, 0.20)"/>
+    <Waves phase={0} speed={0.006} color="rgba(41, 171, 226, 0.20)"/>
+    <Waves phase={0} speed={0.004} color="rgba(193, 39, 45, 0.20)"/>
 
     <div class="content grid gap-24 ">
         

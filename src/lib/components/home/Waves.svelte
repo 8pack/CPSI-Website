@@ -13,16 +13,16 @@
     export let color = 'rgba(241, 90, 36, 0.56)';
 
     const drawSineWave = () => {
-        const width = canvas.width;
+        const width = canvas.width+100;
         const height = canvas.height;
-        const centerY = height / 1.1;
+        const centerY = height / 1.2;
 
         context.clearRect(0, 0, width, height);
         context.beginPath();
 
         context.moveTo(0, centerY);
 
-        for (let x = 0; x < width; x++) {
+        for (let x = -400; x < width; x++) {
             const y = centerY + amplitude * Math.sin(frequency * x + phase);
             context.lineTo(x, y);
         }

@@ -19,7 +19,7 @@
 		damping: 0.9
 	});
 
-	let size = spring(35);
+	let size = spring(60);
 
     
     // let deg = Math.floor(Math.random() * 10)+1;
@@ -48,8 +48,8 @@
         coords2.set({ x: e.offsetX+(random1 * deg), y: e.offsetY+(random2 * deg) });
         coords3.set({ x: e.offsetX+(random3 * deg), y: e.offsetY+(random4 * deg) });
     }}
-	on:mousedown={() => size.set(70)}
-	on:mouseup={() => size.set(35)}
+	on:mousedown={() => size.set(120)}
+	on:mouseup={() => size.set(60)}
     role="presentation"
 >
 	<circle class="circle-orange z-[1]"

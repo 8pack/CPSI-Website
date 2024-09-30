@@ -17,7 +17,7 @@
 
     <div class="content grid gap-24 ">
         
-        <div class="grid grid-cols-4 gap-8 min-h-[50svh]">
+        <div class="grid grid-cols-4 gap-8 min-h-[72svh]">
             <div class="col-span-3 grid gap-4 content-center">
                 <h1>Restoring <br>Dynamism</h1>
                 <h3>The Caribbean Progress Studies Institute (CPSI) is steadfastly committed to re-igniting the once vibrant dynamism and progress that defined the Caribbean in the 20th century.</h3>

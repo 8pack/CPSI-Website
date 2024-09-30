@@ -7,8 +7,13 @@
 
 </script>
 
-<section class=" ">
-    <div class="stars"></div>
+<section class=" relative">
+    <div class="stars">
+    </div>
+    
+    <Waves phase={0} speed={0.01} color="rgba(241, 90, 36, 0.20)"/>
+    <Waves phase={0} speed={0.011} color="rgba(41, 171, 226, 0.20)"/>
+    <Waves phase={0} speed={0.009} color="rgba(193, 39, 45, 0.20)"/>
 
     <div class="content grid gap-24 ">
         
@@ -22,10 +27,9 @@
             </div>
         </div>
     </div>
-    <Waves/>
 </section>
 
-<section class="bg-white platforms">
+<section class="platforms">
     <div class="content">
 
         <h2>Platforms</h2>
@@ -75,7 +79,7 @@
 </section>
 
 
-<section class="bg-white highlights">
+<section class="highlights">
     <div class="content">
 
         <h2>Highlights </h2>
@@ -114,6 +118,7 @@
         
         &.platforms, &.highlights {
             color: var(--primary);
+            background: white;
         }
         .stars {
             background: url('/bg-grid-transparent.png');

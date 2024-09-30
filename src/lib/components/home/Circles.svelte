@@ -36,7 +36,7 @@
 </script>
 
 
-<svg fill="none" xmlns="http://www.w3.org/2000/svg"
+<svg fill="none"
     on:mousemove={(e) => {
         
         random1 = Math.floor(Math.random() * range) - offset;

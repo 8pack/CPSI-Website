@@ -8,7 +8,7 @@
         <a href="/"><img src="CPSI-Logo.webp" alt="CPSI Logo"></a>
 
         <div class="flex gap-12 links">
-            <a href="newsletters" class="" class:active="{$page.url.pathname === '/newsletters'}">
+            <a href="https://cpsi.media/" class="" class:active="{$page.url.pathname === '/newsletters'}">
                 <svg class="circle-orange" width="36" height="36" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="20" cy="20" r="16" fill="white"/>
                     <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="4"/>

@@ -22,7 +22,7 @@
 
     <div>
         
-    <hr class="grid gap-8 border-borders-40 place-self-end">
+        <hr class="grid gap-8 border-borders-40 place-self-end">
         <!-- <div class="border border-borders-40"></div> -->
 
         <div class="flex gap-4 items-center place-self-end">

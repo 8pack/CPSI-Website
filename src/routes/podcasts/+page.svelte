@@ -9,10 +9,10 @@
         <div class="content grid gap-24">
             <div>
                 <h1>Tune In</h1>
-                <h2>
+                <h3>
                     From weekly commentary and foreign policy updates to in-depth analysis and discussions with policy makers and professionals from across the globe, the CPSI’s 
                     growing library of podcasts promises to provide insights on key issues and trends from the region and beyond.
-                </h2>
+                </h3>
             </div>
     
             <div class="grid md:grid-cols-3 gap-24 md:gap-8">

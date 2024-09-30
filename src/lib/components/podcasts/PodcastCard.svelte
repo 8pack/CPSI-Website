@@ -20,12 +20,9 @@
 
     <p>{description}</p>
 
-    <div>
-        
-        <hr class="grid gap-8 border-borders-40 place-self-end">
-        <!-- <div class="border border-borders-40"></div> -->
 
-        <div class="flex gap-4 items-center place-self-end">
+    <div class="grid items-end border-t border-borders-40 self-end min-h-20" >
+        <div class="flex gap-4 items-center">
             <strong>Listen on</strong>
 
             <div class="flex gap-4">

@@ -21,8 +21,8 @@
         </div>
     </div>
 
-    <div class="grid gap-8 border-t border-borders-40 self-end min-h-16" >
-        <div class="flex gap-4 items-center self-end">
+    <div class="grid items-end border-t border-borders-40 self-end min-h-16" >
+        <div class="flex gap-4 items-center">
             {#if linkedin}
                 <a href={linkedin} target="_blank"> <img src="linkedIn-logo.png" alt="LinkedIn" width=40 height=40></a>
             {:else}

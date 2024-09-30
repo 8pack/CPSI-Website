@@ -15,7 +15,15 @@
 }
 
 :root {
+    --primary: #808080;
     --text: #666666;
+
+    --cpsi-orange: #F7A284;
+    --cpsi-orange-transparent: rgba(241, 90, 36, 0.56);
+    --cpsi-blue: #52BBE8;
+    --cpsi-blue-transparent: rgba(41, 171, 226, 0.56);
+    --cpsi-red: #CD5155;
+    --cpsi-red-transparent: rgba(193, 39, 45, 0.56);
 }
 
 html {
@@ -63,14 +71,21 @@ svg.circle {
 }
 
 .circle-orange {
-    // color: rgba(241, 90, 36, 0.56);
-    color: #F7A284;
+    color: var(--cpsi-orange);
 }
 .circle-blue {
-    // color: rgba(41, 171, 226, 0.56);
-    color: #52BBE8;
+    color: var(--cpsi-blue);
 }
 .circle-red {
-    // color: rgba(193, 39, 45, 0.56);
-    color: #CD5155;
+    color: var(--cpsi-red);
+}
+
+.circle-orange-transparent {
+    color: var(--cpsi-orange-transparent);
+}
+.circle-blue-transparent {
+    color: var(--cpsi-blue-transparent);
+}
+.circle-red-transparent {
+    color: var(--cpsi-red-transparent);
 }

@@ -1,10 +1,10 @@
 <script lang="ts">
-    
+
 </script>
 
 <footer>
     <div class="content">
-        <a href="/"><img src="CPSI-Logo.webp" alt="CPSI Logo"></a>
+        <a href="/" class="inline-block"><img src="CPSI-Logo.webp" alt="CPSI Logo" class="ml-0 mr-auto w-min"></a>
         
         <div class="narrow">
             
@@ -19,8 +19,8 @@
                     <div>@CPSIorg on</div>
                 </div>
 
-                <a href="https://www.linkedin.com/company/caribbeanprogress/" target="_blank"><img src="/twitter-logo.png" alt="Twitter Logo"></a>
-                <a href="https://x.com/CPSIorg" target="_blank"><img src="/linkedIn-logo.png" alt="LinkedIn logo"></a>
+                <a href="https://x.com/CPSIorg" target="_blank"><img src="/twitter-logo.png" alt="Twitter Logo"></a>
+                <a href="https://www.linkedin.com/company/caribbeanprogress/" target="_blank"><img src="/linkedIn-logo.png" alt="LinkedIn logo"></a>
                 <a href="https://substack.com/@cpsi" target="_blank"><img src="/substack-logo.png" alt="Substack Logo "></a>
             </div>
         </div>
@@ -32,7 +32,7 @@
 <style lang="scss">
     footer {
         background-color: #fafafa;
-        padding: 1rem 0;
+        padding: 2rem 0 2rem;
 
         .content {
             .narrow {
@@ -41,6 +41,16 @@
                 max-width: 30rem;
                 >div {
                     margin-left: 70px;
+                }
+            }
+
+            img {
+                transition-property: transform;
+                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+                transition-duration: 150ms;
+                
+                &:hover {        
+                    transform: scale(1.05);
                 }
             }
         }

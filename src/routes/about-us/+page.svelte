@@ -32,7 +32,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                 <a href="https://cpsi.media/p/what-should-a-caribbean-think-tank " target="_blank"><h3 class="font-bold hover:underline cursor-pointer">+  Read Our Mission</h3></a>
             </div>
             <div>
-                <img src="about-us/hero-rasheed-griffith.png" alt="" class="h-full object-cover">
+                <!-- <img src="about-us/hero-rasheed-griffith.png" alt="" class="h-full object-cover"> -->
             </div>
         </div>
 

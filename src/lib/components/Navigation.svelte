@@ -44,6 +44,7 @@
         background-color: white;
         box-shadow: (0px 4px 20px 23px rgba(0, 0, 0, 0.03));
         font-size: 1.5rem;
+        font-size: 1.25rem;
         color: black;
 
         .content {

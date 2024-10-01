@@ -5,6 +5,25 @@
 	import Waves from "$lib/components/home/Waves.svelte";
 
 
+    /*
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+
+    <link rel="canonical" href={seo.canonical} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="description" content={seo.description} />
+    <meta property="og:url" content={seo.canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={seo.description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={seo.canonical + seo.image} />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:site_name" content={seo.title} />
+    <meta property="og:locale" content={seo.locale} />
+*/
 </script>
 
 <section class=" relative">
@@ -18,11 +37,11 @@
     <div class="content grid gap-24 ">
         
         <div class="grid md:grid-cols-4 gap-8 min-h-[72svh]">
-            <div class="order-2 md:order-none md:col-span-3 grid gap-4 content-center">
+            <div class="order-2 md:order-none md:col-span-2 grid gap-4 content-center">
                 <h1 class="">Restoring <br>Dynamism</h1>
                 <h3>The Caribbean Progress Studies Institute (CPSI) is steadfastly committed to re-igniting the once vibrant dynamism and progress that defined the Caribbean in the 20th century.</h3>
             </div>
-            <div class="relative order-1 md:order-none">
+            <div class="relative order-1 md:order-none md:col-span-2">
                  <Circles/>
             </div>
         </div>
@@ -94,14 +113,14 @@
             
             <HighlightCard 
                 title="Colonialism And Progress"
-                description="Exploring the myth of “independence”"
+                description="Exploring the myth of “independence”."
                 href="https://cpsi.media/p/colonialism-and-progress-fb9"
                 color="var(--cpsi-blue-transparent)"
             />
             
             <HighlightCard 
                 title="Why Panama Dollarized"
-                description="A history of violence and the divergence of social development."
+                description="A monetary success story and lesson for the Caribbean."
                 href="https://cpsi.media/p/why-panama-dollarized"
                 color="var(--cpsi-red-transparent)"
             />

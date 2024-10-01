@@ -26,6 +26,7 @@
     let deg = 15;
     let range=4
     let offset=range/2
+    let stroke_width = 8
 
     let random1 = Math.floor(Math.random() * range) - offset
     let random2 = Math.floor(Math.random() * range) - offset
@@ -56,21 +57,21 @@
 		cx={$coords.x}
 		cy={$coords.y}
 		r={$size}
-        stroke="currentColor" stroke-width="4"
+        stroke="currentColor" stroke-width={stroke_width}
 	/>
     
 	<circle class="circle-blue-transparent z-0"
         cx={$coords2.x}
         cy={$coords2.y}
         r={$size}
-        stroke="currentColor" stroke-width="4"
+        stroke="currentColor" stroke-width={stroke_width}
     />
     
 	<circle class="circle-red-transparent z-0"
         cx={$coords3.x}
         cy={$coords3.y}
         r={$size}
-        stroke="currentColor" stroke-width="4"
+        stroke="currentColor" stroke-width={stroke_width}
     />
 </svg>
 

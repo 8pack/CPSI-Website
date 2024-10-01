@@ -1,7 +1,7 @@
 <script>
 	import { spring } from 'svelte/motion';
 
-	let coords = spring({ x: 400, y: 450 }, {
+	let coords = spring({ x: 400, y: 400 }, {
 		// stiffness: 0.1,
 		stiffness: 0.08,
 		// damping: 0.25
@@ -9,12 +9,12 @@
 	});
 
     
-	let coords2 = spring({ x: 395, y: 455 }, {
+	let coords2 = spring({ x: 395, y: 405 }, {
 		stiffness: 0.07,
 		damping: 0.7
 	});
 
-	let coords3 = spring({ x: 405, y: 450 }, {
+	let coords3 = spring({ x: 405, y: 400 }, {
 		stiffness: 0.06,
 		damping: 0.9
 	});
@@ -93,7 +93,7 @@
 		/* background: #ffffff10; */
 		position: absolute;
 		width: 100%;
-		height: 100%;
+		height: 50%;
 		left: 0;
 		top: 0;
         overflow: visible;

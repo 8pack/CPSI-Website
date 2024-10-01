@@ -40,7 +40,7 @@
                 <h1 class="">Restoring <br>Dynamism</h1>
                 <h3>The Caribbean Progress Studies Institute (CPSI) is steadfastly committed to re-igniting the once vibrant dynamism and progress that defined the Caribbean in the 20th century.</h3>
             </div>
-            <div class="relative zorder-1 md:order-none md:col-span-2">
+            <div class="relative zorder-1 md:order-none md:col-span-2 hidden md:block">
                  <Circles/>
             </div>
         </div>
@@ -64,7 +64,7 @@
             />
             <PlatformCard 
                 title="Dollarization"
-                description="Focusing on retirement of all Caribbean currencies in favorof the US Dollar. The aim is to stabilize fiscal environments, eliminate monetary mismanagement, 
+                description="Focusing on retirement of all Caribbean currencies in favor of the US Dollar. The aim is to stabilize fiscal environments, eliminate monetary mismanagement, 
                     promote foreign investment, ultimately providing a robust foundation for rapid development and global economic integration in the region."
                 image1="home/dollarization-1.png"
                 image2="home/dollarization-2.png"

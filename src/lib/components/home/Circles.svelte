@@ -101,7 +101,7 @@
 </svg>
 
 
-<svg fill="none" class="block md:hidden"
+<svg fill="none" class="hidden md:hidden"
     on:mousemove={(e) => {
         if (!isHovered)
 			return

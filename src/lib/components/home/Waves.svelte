@@ -15,7 +15,7 @@
     const drawSineWave = () => {
         const width = canvas.width+100;
         const height = canvas.height;
-        const centerY = height / 1.2;
+        const centerY = height*0.8;
 
         context.clearRect(0, 0, width, height);
         context.beginPath();

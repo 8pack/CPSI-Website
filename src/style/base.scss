@@ -65,6 +65,9 @@ p {
 .content {
     max-width: 96rem;
     margin: 0px auto;
+
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 footer {
@@ -93,4 +96,25 @@ svg.circle {
 }
 .circle-red-transparent {
     color: var(--cpsi-red-transparent);
+}
+
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+    .content {
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+
+    .content {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }

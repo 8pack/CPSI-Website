@@ -17,12 +17,12 @@
 
     <div class="content grid gap-24 ">
         
-        <div class="grid grid-cols-4 gap-8 min-h-[72svh]">
-            <div class="col-span-3 grid gap-4 content-center">
-                <h1>Restoring <br>Dynamism</h1>
+        <div class="grid md:grid-cols-4 gap-8 min-h-[72svh]">
+            <div class="order-2 md:order-none md:col-span-3 grid gap-4 content-center">
+                <h1 class="">Restoring <br>Dynamism</h1>
                 <h3>The Caribbean Progress Studies Institute (CPSI) is steadfastly committed to re-igniting the once vibrant dynamism and progress that defined the Caribbean in the 20th century.</h3>
             </div>
-            <div class="relative">
+            <div class="relative order-1 md:order-none">
                  <Circles/>
             </div>
         </div>
@@ -84,7 +84,7 @@
 
         <h2>Highlights </h2>
         
-        <div class="mt-8 grid md:grid-cols-3 gap-24 md:gap-24 justify-between">
+        <div class="mt-8 grid md:grid-cols-3 gap-12 lg:gap-24 md:justify-between ">
             <HighlightCard 
                 title="Jamaica Is Not Doing Ok"
                 description="A history of violence and the divergence of social development."
@@ -116,6 +116,10 @@
         margin: auto;
         overflow: hidden;
         
+        h1 {
+            font-size: 7rem;
+            line-height: 100%;
+        }
         &.platforms, &.highlights {
             color: var(--primary);
             background: white;

@@ -12,7 +12,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
     <div class="content grid gap-24">
         <div class="grid grid-cols-4 gap-8">
 
-            <div class="col-span-3 grid gap-4">
+            <div class="col-span-4 md:col-span-3 grid gap-4">
                 <h1>A Dedicated Fellowship</h1>
                 <h3>
                     The CPSI envisions a Caribbean where the economic and social policies are not only forward-thinking 
@@ -40,7 +40,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
         <div class="grid gap-16">
             <h2 class="font-bold">Directors</h2>
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 md:gap-8">
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 sm:gap-8 md:gap-8">
                 <DirectorCard 
                     src="about-us/rasheed-griffith.png"
                     name="Rasheed Griffith"
@@ -88,7 +88,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
         <div class="grid gap-16">
             <h2 class="font-bold">Senior Fellows </h2>
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 md:gap-8">
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 sm:gap-8 md:gap-8">
                 <DirectorCard 
                     src="about-us/dr-karsten-müller.png"
                     name="Dr. Karsten Müller"
@@ -132,7 +132,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
         <div class="grid gap-16">
             <h2 class="font-bold">Fellows </h2>
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 md:gap-8">
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 sm:gap-8 md:gap-8">
                 <DirectorCard 
                     src="about-us/tianyu-fang.png"
                     name="Tianyu Fang"
@@ -172,7 +172,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
         <div class="grid gap-16">
             <h2 class="font-bold">Partners </h2>
 
-            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 md:gap-8">
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-24 sm:gap-8 md:gap-8">
                 <PartnerCard 
                     src="about-us/mercatus-center.png"
                     name="Mercatus Center"

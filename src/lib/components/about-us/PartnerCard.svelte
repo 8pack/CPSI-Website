@@ -13,7 +13,7 @@
         <img {src} {alt} class="hover:scale-[1.02] transition-transform max-w-60 object-contain">
         
         <div class="grid gap-8 items-start">
-            <h3 class="font-semibold text-center md:text-start">{name}</h3>
+            <h3 class="font-semibold text-start">{name}</h3>
         </div>
 
     </div>

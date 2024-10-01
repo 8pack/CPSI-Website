@@ -211,6 +211,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
             background: url('bg-grid-transparent.png');
             min-height: 10rem;
             width: 100%;
+            background-attachment: fixed;
         }
 
         .content {

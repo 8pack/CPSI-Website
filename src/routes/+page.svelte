@@ -26,7 +26,7 @@
 */
 </script>
 
-<section class=" relative">
+<section class="relative min-h-screen md:min-h-max">
     <div class="stars"></div>
     
     <Waves phase={4} speed={0.005} color="rgba(241, 90, 36, 0.20)"/>
@@ -36,11 +36,11 @@
     <div class="content grid gap-24 ">
         
         <div class="grid md:grid-cols-4 gap-8 min-h-[72svh]">
-            <div class="order-2 md:order-none md:col-span-2 grid gap-4 content-center">
+            <div class="zorder-2 md:order-none md:col-span-2 grid gap-4 content-center">
                 <h1 class="">Restoring <br>Dynamism</h1>
                 <h3>The Caribbean Progress Studies Institute (CPSI) is steadfastly committed to re-igniting the once vibrant dynamism and progress that defined the Caribbean in the 20th century.</h3>
             </div>
-            <div class="relative order-1 md:order-none md:col-span-2">
+            <div class="relative zorder-1 md:order-none md:col-span-2">
                  <Circles/>
             </div>
         </div>
@@ -143,7 +143,8 @@
             background: white;
         }
         .stars {
-            background: url('/bg-grid-transparent.png');
+            background-image: url('/bg-grid-transparent.png');
+            background-attachment: fixed;
             height: 100%;
             width: 100%;
             position: fixed;
@@ -165,6 +166,15 @@
         margin: 3rem auto 6rem;
         h2 {
             max-width: 60ch;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        section {
+            
+            h1 {
+                font-size: 6rem;
+            }
         }
     }
 </style>

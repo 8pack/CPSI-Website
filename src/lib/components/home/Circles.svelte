@@ -2,9 +2,7 @@
 	import { spring } from 'svelte/motion';
 
 	let coords = spring({ x: 400, y: 400 }, {
-		// stiffness: 0.1,
 		stiffness: 0.08,
-		// damping: 0.25
 		damping: 0.5
 	});
 
@@ -15,6 +13,23 @@
 	});
 
 	let coords3 = spring({ x: 405, y: 400 }, {
+		stiffness: 0.06,
+		damping: 0.9
+	});
+
+	
+	let mobile_coords = spring({ x: 400, y: 0 }, {
+		stiffness: 0.08,
+		damping: 0.5
+	});
+
+    
+	let mobile_coords2 = spring({ x: 395, y: 5 }, {
+		stiffness: 0.07,
+		damping: 0.7
+	});
+
+	let mobile_coords3 = spring({ x: 405, y: 0 }, {
 		stiffness: 0.06,
 		damping: 0.9
 	});
@@ -39,9 +54,7 @@
 </script>
 
 
-<svg fill="none"
-
-
+<svg fill="none" class="hidden md:block"
     on:mousemove={(e) => {
         if (!isHovered)
 			return
@@ -82,6 +95,53 @@
 		on:mouseenter={() => isHovered = true}
         cx={$coords3.x}
         cy={$coords3.y}
+        r={$size}
+        stroke="currentColor" stroke-width={stroke_width}
+    />
+</svg>
+
+
+<svg fill="none" class="block md:hidden"
+    on:mousemove={(e) => {
+        if (!isHovered)
+			return
+
+        random1 = Math.floor(Math.random() * range) - offset;
+        random2 = Math.floor(Math.random() * range) - offset;
+        random3 = Math.floor(Math.random() * range) - offset;
+        random4 = Math.floor(Math.random() * range) - offset;
+        
+        mobile_coords.set({ x: e.offsetX, y: e.offsetY });
+        mobile_coords2.set({ x: e.offsetX+(random1 * deg), y: e.offsetY+(random2 * deg) });
+        mobile_coords3.set({ x: e.offsetX+(random3 * deg), y: e.offsetY+(random4 * deg) });
+    }}
+	on:mousedown={() => size.set(120)}
+	on:mouseup={() => size.set(60)}
+    role="presentation"
+>
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<circle class="circle-orange z-[1]"
+		on:mouseenter={() => isHovered = true}
+		cx={$mobile_coords.x}
+		cy={$mobile_coords.y}
+		r={$size}
+        stroke="currentColor" stroke-width={stroke_width}
+	/>
+    
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<circle class="circle-blue-transparent z-0"
+		on:mouseenter={() => isHovered = true}
+        cx={$mobile_coords2.x}
+        cy={$mobile_coords2.y}
+        r={$size}
+        stroke="currentColor" stroke-width={stroke_width}
+    />
+    
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<circle class="circle-red-transparent z-0"
+		on:mouseenter={() => isHovered = true}
+        cx={$mobile_coords3.x}
+        cy={$mobile_coords3.y}
         r={$size}
         stroke="currentColor" stroke-width={stroke_width}
     />

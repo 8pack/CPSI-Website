@@ -161,7 +161,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                     src="about-us/ethan-knecht.png"
                     name="Ethan Knecht"
                     description="Ethan was previously a government relations counselor and deputy director of the Washington International Business Council. 
-                        He is currently in graduate school in  =Taiwan and is the author of the Chaufa Newsletter."
+                        He is currently in graduate school in Taiwan and is the author of the Chaufa Newsletter."
                     linkedin="https://www.linkedin.com/in/ethan-knecht-179b9317b"
                     twitter="https://x.com/knecht_ethan"
                 />

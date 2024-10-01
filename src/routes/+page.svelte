@@ -55,7 +55,7 @@
         <div class="mt-8 grid md:grid-cols-2 gap-24 md:gap-24 justify-between">
             <PlatformCard 
                 title="Metagovernance"
-                description="Emphasizing international talent recruitment and intra-Caribbeancivil services with the aim is to enhance public service delivery, 
+                description="Emphasizing international talent recruitment and intra-Caribbean civil services with the aim is to enhance public service delivery, 
                     ultimately elevating governance standards and public sector performance across the region"
                 image1="home/metagovernance-1.png"
                 image2="home/metagovernance-2.png"

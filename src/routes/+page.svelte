@@ -64,8 +64,8 @@
             />
             <PlatformCard 
                 title="Dollarization"
-                description="Focusing on retirement all Caribbean currencies in favorof the US Dollar. The aim is to stabilize fiscal environments, eliminate monetary mismanagement, 
-                    promote foreign investment, ultimately  providing a robust foundation for rapid development and global economic integration in the region."
+                description="Focusing on retirement of all Caribbean currencies in favorof the US Dollar. The aim is to stabilize fiscal environments, eliminate monetary mismanagement, 
+                    promote foreign investment, ultimately providing a robust foundation for rapid development and global economic integration in the region."
                 image1="home/dollarization-1.png"
                 image2="home/dollarization-2.png"
                 alt1="Dollarization 1.png"
@@ -75,7 +75,7 @@
             
             <PlatformCard 
                 title="Growth"
-                description="Promoting tech entrepreneurship, industrial policy, and classicalliberal principles. The goal is to  foster a dynamic, 
+                description="Promoting tech entrepreneurship, industrial policy, and classicalliberal principles. The goal is to foster a dynamic, 
                     competitive economic environment, driving prosperity and improved living standards across the Caribbean nations."
                 image1="home/growth-1.png"
                 image2="home/growth-2.png"

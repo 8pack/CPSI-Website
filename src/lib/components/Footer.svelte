@@ -31,8 +31,12 @@
 
 <style lang="scss">
     footer {
-        background-color: #fafafa;
+        position: relative;
+        
+        // background-color: #fefefe;
         padding: 2rem 0 2rem;
+        background-image: url('/bg-grid-transparent.png');
+        background-attachment: fixed;
 
         .content {
             .narrow {

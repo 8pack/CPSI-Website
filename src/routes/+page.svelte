@@ -84,7 +84,7 @@
             />
             <PlatformCard 
                 title="China"
-                description="Researching and explaining the effects of Chinese investmentswith the aim to provide insightful, data-driven analysis to guide 
+                description="Researching and explaining the effects of Chinese investments with the aim to provide insightful, data-driven analysis to guide 
                     Caribbean nations in maximizing benefits and strategically navigating their economic relationship with China."
                 image1="home/china-1.png"
                 image2="home/china-2.png"

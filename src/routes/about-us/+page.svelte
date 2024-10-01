@@ -18,15 +18,15 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                     The CPSI envisions a Caribbean where the economic and social policies are not only forward-thinking 
                     but also deeply rooted in the region’s rich cultural heritage and demographic realities. We believe 
                     that by promoting classical liberal economic principles alongside a nuanced understanding of the 
-                    region’s socio-political landscape, we can foster an  environment where free markets, reduced import 
-                    taxes, and private sector involvement in public  services thrive, ultimately benefiting the 
+                    region’s socio-political landscape, we can foster an environment where free markets, reduced import 
+                    taxes, and private sector involvement in public services thrive, ultimately benefiting the 
                     region’s people.
                 </h3>
 
                 <h3>
                     In essence, our vision is not just about policy reform; it’s about inspiring a movement. 
                     It’s about empowering Caribbean societies to envision a future where their unique blend of intellectual mixing, 
-                    cultural vibrancy, and economic  potential is not only recognized but also fully realized. We are committed 
+                    cultural vibrancy, and economic potential is not only recognized but also fully realized. We are committed 
                     to being at the forefront of this transformation, catalysing change, and ushering in a new era of Caribbean progress.    
                 </h3>
                 <a href="https://cpsi.media/p/what-should-a-caribbean-think-tank " target="_blank"><h3 class="font-bold hover:underline cursor-pointer">+  Read Our Mission</h3></a>
@@ -45,8 +45,8 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                     src="about-us/rasheed-griffith.png"
                     name="Rasheed Griffith"
                     description="Rasheed is the Director of Emergent Ventures Africa & the Caribbean at the Mercatus Center of George Mason University,
-                        a non-resident Senior Fellow at  the Inter-American Dialogue, and an  Innovation Fellow with Schmidt Futures. He cofounded Merkle Hedge, 
-                        a high-frequency trading firm. Previously, he was the Head of  Compliance of a hyper-growth FinTech firm in the Philippines. 
+                        a non-resident Senior Fellow at the Inter-American Dialogue, and an Innovation Fellow with Schmidt Futures. He cofounded Merkle Hedge, 
+                        a high-frequency trading firm. Previously, he was the Head of Compliance of a hyper-growth FinTech firm in the Philippines. 
                         He has testified before the US-China Economic and Security Review Commission (USCC)."
                     linkedin="https://www.linkedin.com/in/rasheed-j-griffith-74b501206/"
                     twitter="https://x.com/rasheedguo/"
@@ -65,7 +65,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                     src="about-us/dr-delisle-worrell.png"
                     name="Dr. Delisle Worrell"
                     description="Delisle is a member of the Bermuda Financial Policy Council, the Bretton Woods Committee, Washington DC, and the College of Central Bankers, 
-                        Federal Reserve  Bank of Philadelphia. He was Governor of  the Central Bank of Barbados 2009–17. He founded the Bank’s Research Department in 1973, 
+                        Federal Reserve Bank of Philadelphia. He was Governor of the Central Bank of Barbados 2009–17. He founded the Bank’s Research Department in 1973, 
                         and he subsequently oversaw the establishment of its Banking Supervision and Information Technology Departments. He spent a decade on the staff of the International Monetary Fund from 1997."
                     linkedin=""
                     twitter=""
@@ -74,10 +74,10 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                 <DirectorCard 
                     src="about-us/dr-ria-persad.png"
                     name="Dr. Ria Persad"
-                    description="Ria is the founding CEO of StatWeather. She studied mathematics and physics at  Harvard, Princeton, and Cambridge Universities. 
-                        She performed earth and solar  system modeling at NASA and went on to  model geophysical systems at Bell Geospace. 
-                        She developed long-range weather prediction systems, peer-reviewed  among academia and U.S. Department of  Defense scientists. 
-                        She models complex  systems for the U.S. Space Program and is  an innovative Subject Matter Expert."
+                    description="Ria is the founding CEO of StatWeather. She studied mathematics and physics at Harvard, Princeton, and Cambridge Universities. 
+                        She performed earth and solar system modeling at NASA and went on to model geophysical systems at Bell Geospace. 
+                        She developed long-range weather prediction systems, peer-reviewed among academia and U.S. Department of Defense scientists. 
+                        She models complex systems for the U.S. Space Program and is an innovative Subject Matter Expert."
                     linkedin="https://www.linkedin.com/in/riapersad/"
                     twitter=""
                 />
@@ -92,16 +92,16 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                 <DirectorCard 
                     src="about-us/dr-karsten-müller.png"
                     name="Dr. Karsten Müller"
-                    description="Karsten is an Assistant Professor in  Finance at the National University of Singapore Business School. 
+                    description="Karsten is an Assistant Professor in Finance at the National University of Singapore Business School. 
                         Karsten’s work is frequently cited by media outlets such as The New York Times, The Economist, Financial Times, Time Magazine, Bloomberg, 
-                        Huffington Post, CNN, The Guardian, and many others. He received his Ph.D. in Business and Management from the University  of Warwick in 2018"
+                        Huffington Post, CNN, The Guardian, and many others. He received his Ph.D. in Business and Management from the University of Warwick in 2018"
                     linkedin="https://www.linkedin.com/in/krstnmllr/"
                     twitter=""
                 />
                 <DirectorCard 
                     src="about-us/neil-harper.png"
                     name="Niel Harper"
-                    description="Neil was previously a Member of the United Nations Information Security Special  Interest Group (UNISSIG) and is 
+                    description="Neil was previously a Member of the United Nations Information Security Special Interest Group (UNISSIG) and is 
                         currently a Member of the World Economic Forum’s Cyber Risk & Corporate Governance Working Group. Niel also serves on the 
                         Professional Standards Working Group of the UK Cyber Security Council and as a Board Director and Vice-Chair, Audit Committee at ISACA."
                     linkedin="https://linkedin.com/in/nielharper"
@@ -121,7 +121,7 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                     name="Dr. Tarron Khemraj"
                     description="Tarron is the William and Marie Selby Chair and Professor of Economics and International Studies at New College of Florida. 
                         Khemraj has two primary research areas: the political economy of development with special emphasis on the English-speaking 
-                        Caribbean and the Guianas (Guyana and  Suriname); and monetary macroeconomics with focus on the United States and other developing economies."
+                        Caribbean and the Guianas (Guyana and Suriname); and monetary macroeconomics with focus on the United States and other developing economies."
                     linkedin=""
                     twitter="https://x.com/Tarronkhemraj"
                 />
@@ -137,14 +137,14 @@ import PodcastCard from "$lib/components/podcasts/PodcastCard.svelte";
                     src="about-us/tianyu-fang.png"
                     name="Tianyu Fang"
                     description="Tianyu, currently at Standford University, is a MacArthur Tech and Democracy Fellow at New America. Previously, he was a co-founder of Chaoyang Trap, 
-                        a newsletter about life on the Chinese internet. He  covered Chinese technology, politics, and culture as a freelance journalist in Beijing."
+                        a newsletter about life on the Chinese internet. He covered Chinese technology, politics, and culture as a freelance journalist in Beijing."
                     linkedin="http://linkedin.com/in/tianyufang"
                     twitter="https://x.com/tianyuf"
                 />
                 <DirectorCard 
                     src="about-us/sebastian-naranjo.png"
                     name="Sebastian Naranjo"
-                    description="Sebastian is a Foreign Services Officer at  the Ministry of Foreign Affairs of Panama. He is a PhD candidate at Renmin University of China 
+                    description="Sebastian is a Foreign Services Officer at the Ministry of Foreign Affairs of Panama. He is a PhD candidate at Renmin University of China 
                         with a dissertation focusing on China’s political relations with Central America and the Caribbean. He was the host of the Chinomania Podcast."
                     linkedin="http://linkedin.com/in/sebastian1993"
                     twitter=""

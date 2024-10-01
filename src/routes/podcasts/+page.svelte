@@ -32,7 +32,7 @@
                 src='podcasts/chaufa-with-ethan-knecht.png'
                 apple='https://podcasts.apple.com/us/podcast/chaufa-with-ethan-knecht/id1727783505'
                 spotify='https://open.spotify.com/show/0ySRWx9ovNi3fAs36qf7mq'
-                description="News from China’s and Taiwan’s relationswith the Caribbean & Latam. Our Taiwan-based correspondent and fellow, 
+                description="News from China’s and Taiwan’s relations with the Caribbean & Latam. Our Taiwan-based correspondent and fellow, 
                     Ethan Knecht, provides detailed analysis and briefings for the latest in Beijing’s foreign policy and interactions with the West."
             />
             <PodcastCard 
